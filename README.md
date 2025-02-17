@@ -38,10 +38,10 @@ cp .env.example .env
 
 4. Edit the `.env` file:
 ```env
-db_host=localhost
-db_name=barcode_stock_api
-db_user=root
-db_pass=your_password
+DB_HOST=localhost
+DB_NAME=barcode_stock_api
+DB_USER=root
+DB_PASS=<your_password>
 ```
 
 5. Create the database and tables:
